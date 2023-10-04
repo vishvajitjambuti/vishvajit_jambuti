@@ -120,3 +120,16 @@ a {
       border: none; /* Remove border */
       cursor: pointer; /* Add a cursor pointer on hover */
  }
+ .grid-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+  gap: 20px; /* Adjust the gap between grid items */
+}
+
+/* Style for grid items */
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
